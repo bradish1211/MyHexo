@@ -1,9 +1,17 @@
-<form action="//google.com/search" method="get" accept-charset="utf-8">
-  <div class="input-group">
-    <input class="form-control" id="searchbox" type="search" name="q" results="0" placeholder="<%= __('search') %>">
-    <span class="input-group-btn">
-      <button class="btn btn-default" type="submit">Go!</button>
-    </span>
-    <input type="hidden" name="q" value="site:<%- config.url.replace(/^https?:\/\//, '') %>">
-  </div>
-</form>
+<div id="search-form-wrap">
+	<form>
+	  <input type="text" id="st-search-input" class="form-control" />
+	</form>
+	<script type="text/javascript">
+	var Swiftype = window.Swiftype || {};
+	  (function() {
+		Swiftype.key = 'VLrz47isyxLTmfNbRJSV';
+
+		/** DO NOT EDIT BELOW THIS LINE **/
+		var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+		script.src = "//s.swiftypecdn.com/embed.js";
+		var entry = document.getElementsByTagName('script')[0];
+		entry.parentNode.insertBefore(script, entry);
+	  }());
+	</script>
+</div>
